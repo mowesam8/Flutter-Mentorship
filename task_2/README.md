@@ -7,14 +7,15 @@ A modern Flutter UI showcasing smooth onboarding flows, reusable widgets.
 ## 📸 Screenshots
 
 <div style="display: flex; justify-content: space-around; gap: 10px; flex-wrap: wrap;">
-  <img src="appScreens/onboarding1.png" width="200" alt="Onboarding Screen"/>
-  <img src="appScreens/onboarding2.png" width="200" alt="Onboarding Screen"/>
-  <img src="appScreens/onboarding3.png" width="200" alt="Onboarding Screen"/>
+  <img src="appScreens/splash.png" width="200" alt="Splash Screen"/>
+  <img src="appScreens/onboarding1.png" width="200" alt="Onboarding Screen 1"/>
+  <img src="appScreens/onboarding2.png" width="200" alt="Onboarding Screen 2"/>
+  <img src="appScreens/onboarding3.png" width="200" alt="Onboarding Screen 3"/>
   <img src="appScreens/login.png" width="200" alt="Login Screen"/>
   <img src="appScreens/signup_without_agree.png" width="200" alt="Signup Screen"/>
   <img src="appScreens/signup_with_agree.png" width="200" alt="Signup Screen"/>
-  <img src="appScreens/verification.png" width="200" alt="Verification Screen"/>
-  <img src="appScreens/home.png" width="200" alt="Verification Screen"/>
+  <img src="appScreens/verify.png" width="200" alt="Verification Screen"/>
+  <img src="appScreens/home.png" width="200" alt="Home Screen"/>
 </div>
 
 ---
