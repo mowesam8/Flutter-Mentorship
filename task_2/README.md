@@ -1,6 +1,6 @@
 # 🔐 Advanced Authentication & Onboarding UI Kit
 
-A modern Flutter UI showcasing smooth onboarding flows, reusable widgets.
+A premium Flutter UI Kit featuring a modern shopping experience for smartwatches. This project showcases advanced authentication flows, category-based product filtering, and interactive product details with dynamic content switching.
 
 ---
 
@@ -16,20 +16,21 @@ A modern Flutter UI showcasing smooth onboarding flows, reusable widgets.
   <img src="appScreens/signup_with_agree.png" width="200" alt="Signup Screen"/>
   <img src="appScreens/verify.png" width="200" alt="Verification Screen"/>
   <img src="appScreens/home.png" width="200" alt="Home Screen"/>
+  <img src="appScreens/product_detail.png" width="200" alt="Product Detail Screen"/>
 </div>
 
 ---
 
 ## ✨ Features
 
-- **🎠 Smooth Onboarding Experience** 
-- **⌨️ Interactive OTP Field** 
-- **🎛️ Smart Button State Management** - Dynamic button states based on form validation and user interaction
-- **🎨 Custom UI Components** - Highly reusable and scalable widgets including:
-  - CustomTextField with validation states
-  - CustomButton with multiple variants
-  - CustomHeader with flexible layouts
-- **📱 Responsive Design** - Adapts to different screen sizes and keyboard overlays using LayoutBuilder and ConstrainedBox
+- **🎠 Smooth Onboarding & Auth** - Professional flow with splash, multi-page onboarding, and secure login/signup.
+- **🔍 Smart Category Filtering** - Real-time filtering logic using `where()` to browse products by brand (Apple, Samsung, Amazfit, etc.).
+- **📑 Dynamic Product Tabs** - Interactive "Details" vs "Review" switching using conditional rendering.
+- **🎨 Custom UI Components** - 
+  - **Color Picker**: Interactive watch color selection with active state management.
+  - **Custom Buttons**: Standardized button variants for the entire app.
+  - **OTP Fields**: Integrated interactive verification UI.
+- **📱 Responsive & Scalable** - Built with reusable widgets to adapt to various screen sizes.
 
 
 ---
@@ -52,6 +53,7 @@ lib/
 ├── constants/
 │   └── app_colors.dart               # Color palette and theme constants
 ├── models/
+    ├── product_model.dart            # Product data model with filtering logic
 │   └── onboarding_data.dart          # Data models for onboarding content
 ├── screens/
 │   ├── splash_screen.dart            # Splash/Loading screen
@@ -59,10 +61,13 @@ lib/
 │   ├── login_screen.dart             # User login screen
 │   ├── signup_screen.dart            # User registration with terms validation
 │   ├── verification_screen.dart      # OTP verification screen
+    ├── detail_product.dart           # Dynamic product page with tab switching
 │   └── home_screen.dart              # Main application home screen
 └── widgets/
     ├── custom_button.dart            # Reusable button component
     ├── custom_header.dart            # Reusable header component
+    ├── product_card.dart             # Reusable grid card component
+    ├── custom_watch_color.dart       # Interactive color selector
     └── custom_textfield.dart         # Reusable text input component
 
 
