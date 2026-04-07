@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:task_2/constants/app_colors.dart';
+import 'package:task_2/screens/home_screen.dart';
 import 'package:task_2/screens/signup_screen.dart';
 import 'package:task_2/widgets/custom_button.dart';
 import 'package:task_2/widgets/custom_header.dart';
@@ -20,11 +21,11 @@ class _LoginScreenState extends State<LoginScreen> {
 
   bool rememberMe = false;
 
-   @override
+  @override
   void dispose() {
     email.dispose();
     password.dispose();
-    
+
     super.dispose();
   }
 
@@ -144,7 +145,14 @@ class _LoginScreenState extends State<LoginScreen> {
 
                     Column(
                       children: [
-                        CustomButton(onTap: () {}, text: "Login"),
+                        CustomButton(
+                          onTap: () {
+                            Navigator.of(context).pushReplacement(
+                              MaterialPageRoute(builder: (c) => HomeScreen()),
+                            );
+                          },
+                          text: "Login",
+                        ),
 
                         const SizedBox(height: 12),
 

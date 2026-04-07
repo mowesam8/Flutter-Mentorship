@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:task_2/constants/app_colors.dart';
-import 'package:task_2/screens/home_screen.dart';
+import 'package:task_2/screens/login_screen.dart';
 import 'package:task_2/widgets/custom_button.dart';
 
 class VerificationScreen extends StatefulWidget {
@@ -100,7 +100,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
                     CustomButton(
                       onTap: () {
                         Navigator.of(context).pushReplacement(
-                          MaterialPageRoute(builder: (c) => HomeScreen()),
+                          MaterialPageRoute(builder: (c) => LoginScreen()),
                         );
                       },
                       text: "Verify",
