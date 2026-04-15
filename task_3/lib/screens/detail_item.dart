@@ -38,7 +38,7 @@ class _DetailItemState extends State<DetailItem> {
         ),
 
         title: Text(
-          "Order",
+          "Detail",
           style: GoogleFonts.sora(
             fontSize: 16,
             fontWeight: FontWeight.w600,
@@ -300,7 +300,7 @@ class _DetailItemState extends State<DetailItem> {
                     onTap: () {
                       Navigator.of(context).push(
                         MaterialPageRoute(
-                          builder: (c) => Order(coffe: widget.coffe),
+                          builder: (c) => Order(coffe: widget.coffe,price: widget.coffe.price[selectedIndex],),
                         ),
                       );
                     },

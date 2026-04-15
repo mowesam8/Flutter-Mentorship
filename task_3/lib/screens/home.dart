@@ -298,6 +298,59 @@ class _HomeState extends State<Home> {
             ),
           ],
         ),
+
+        bottomNavigationBar: Container(
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+          ),
+          child: ClipRRect(
+            borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+
+            child: BottomNavigationBar(
+              backgroundColor: Colors.white,
+              type: BottomNavigationBarType.fixed,
+              showSelectedLabels: false,
+              showUnselectedLabels: false,
+              currentIndex: 0,
+              selectedItemColor: AppColors().primaryColor,
+              unselectedItemColor: Colors.grey,
+              items: [
+                BottomNavigationBarItem(
+                  icon: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.home_filled, color: AppColors().primaryColor),
+                      const SizedBox(height: 6),
+                      Container(
+                        width: 10,
+                        height: 4,
+                        decoration: BoxDecoration(
+                          color: AppColors().primaryColor,
+                          borderRadius: BorderRadius.circular(18),
+                        ),
+                      ),
+                    ],
+                  ),
+
+                  label: '',
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.favorite_border),
+                  label: '',
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.shopping_bag_outlined),
+                  label: '',
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.notifications_outlined),
+                  label: '',
+                ),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }
