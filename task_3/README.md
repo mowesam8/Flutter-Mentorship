@@ -7,7 +7,7 @@ A high-fidelity, modern Coffee Shop application built with Flutter. This project
 ## 🎥 Live Demo
 
 <div align="center">
-  <img src="appScreenshots/demo.gif" width="280" alt="App Demo Animation"/>
+  <img src="appScreenShots/demo.gif" width="280" alt="App Demo Animation"/>
   <br>
   <em>Exploring the seamless flow from Home to Delivery Tracking</em>
 </div>
@@ -17,11 +17,11 @@ A high-fidelity, modern Coffee Shop application built with Flutter. This project
 ## 📸 Screenshots
 
 <div style="display: flex; justify-content: space-around; gap: 10px; flex-wrap: wrap;">
-  <img src="appScreenshots/onboarding.png" width="200" alt="Onboarding Screen"/>
-  <img src="appScreenshots/home.png" width="200" alt="Home Screen"/>
-  <img src="appScreenshots/detail_item.png" width="200" alt="Product Detail Screen"/>
-  <img src="appScreenshots/order.png" width="200" alt="Order Summary Screen"/>
-  <img src="appScreenshots/delivery.png" width="200" alt="Live Delivery Tracking"/>
+  <img src="appScreenShots/onboarding.png" width="200" alt="Onboarding Screen"/>
+  <img src="appScreenShots/home.png" width="200" alt="Home Screen"/>
+  <img src="appScreenShots/detail_item.png" width="200" alt="Product Detail Screen"/>
+  <img src="appScreenShots/order.png" width="200" alt="Order Summary Screen"/>
+  <img src="appScreenShots/delivery.png" width="200" alt="Live Delivery Tracking"/>
 </div>
 
 ---
